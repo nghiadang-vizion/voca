@@ -45,7 +45,7 @@ h1 {
 }
 
 .card {
-  width: 300px;
+  width: 500px;
   height: 400px;
   text-align: center;
   transition: transform 0.6s;
@@ -93,7 +93,7 @@ h1 {
 }
 
 #word {
-  font-size: 34px;
+  font-size: 44px;
   font-weight: bold;
   color: #2e8b57;
   text-transform: uppercase;
