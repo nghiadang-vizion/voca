@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcard Vocabulary Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Flashcard Vocabulary Game</h1>
+    <input type="file" id="fileInput" />
+    <div id="flashcardContainer">
+      <div id="flashcard" class="card">
+        <div class="front" id="word"></div>
+        <div class="back">
+          <p id="type"></p>
+          <p id="definition"></p>
+          <p id="note"></p>
+        </div>
+      </div>
+    </div>
+    <div id="controls">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.1/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
