@@ -26,6 +26,7 @@ h1 {
   margin-bottom: 20px;
   color: #4c7b43;
   text-shadow: 2px 2px #a5afa2;
+  font-size: 50px;
 }
 
 #fileInput {
@@ -45,7 +46,7 @@ h1 {
 
 .card {
   width: 300px;
-  height: 200px;
+  height: 400px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -92,7 +93,7 @@ h1 {
 }
 
 #word {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
   color: #2e8b57;
   text-transform: uppercase;
@@ -101,7 +102,7 @@ h1 {
 #type,
 #definition,
 #note {
-  font-size: 18px;
+  font-size: 20px;
   color: #2e8b57;
 }
 
